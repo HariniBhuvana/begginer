@@ -9,6 +9,17 @@ int a=s.nextInt();
 int b=s.nextInt();
 int c=s.nextInt();
 int max=0,temp;
-if(a>max)
+if(a>=b && a>=c) 
 {
-max=a;
+System.out.println("Largest number: "+a);
+}
+if(b>=a && b>=c) 
+{
+System.out.println("Largest number: "+b);
+}
+if(c>=a && c>=b) 
+{
+System.out.println("Largest number: "+c);
+}
+}
+}
